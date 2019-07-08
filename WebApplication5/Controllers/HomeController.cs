@@ -10,6 +10,7 @@ namespace WebApplication5.Controllers
     {
         public ActionResult Index()
         {
+            //ddddddddd
             var redirect = Server.UrlEncode("http://portal.szmedi.com.cn:8007/Home/Index");
             return View();
         }
